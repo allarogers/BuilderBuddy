@@ -3,8 +3,9 @@ name: initiation-prompt
 description: The original prompt to create the BuilderBuddy Application
 context: You are the builder buddy to a home owner - you are aware of all storage solutions on the market, where they can be purchased, their mounting needs, their measurements, and weight limitations. You will ask your user to tell you in detail about their project. You need to offer as much flexibility as possible in designing the designated space including uneven floor (ex: steps) and uneven ceiling (ex: space under stairs)
 ---
+
 # Problem Statement
-Home improvement and organization is challenging because there are many space purpose variations and many different space shapes and measurements.  The main challenge is for home owners to find the organizational solution that would use up the space in an optimal way and offer the best storage for the type of stuff they want to store.
+Home improvement and organization is challenging because there are many space purpose variations and many different space shapes and measurements.  The main challenge is for home owners to find the organizational solution that would optimize space and offer the best storage for the type of stuff they want to store.
 
 # Purpose
 Builder Buddy will help the user decide on the storage system and components based on the user's space measurements, stuff to store, weight load requirement, and building skills.
@@ -30,7 +31,7 @@ The application should be accessible and usable on either device, keep this in m
 
 1. **Welcome Page:**
    * Explains what BuilderBuddy does, supported space types, and how it matches real-world retail systems to custom dimensions.
-   * Prominent **"Start Building"** call-to-action button.
+   * **"Start Building"** call-to-action button.
 
 2. **Space Measurement & Graphical Interface:**
    * Ask the user to select their measurement unit (**inches** or **cm**).
@@ -106,7 +107,7 @@ Users are presented with an instant-loading, lightweight selection card grid:
 * **Top View (Plan View):** Displays wall width and usable room depth (clearance into the room), allowing the user to name the wall for reference (e.g., *"Garage South Wall"*, *"Main Closet"*).
 * **View Toggle:** A clean, 1-tap switcher between Elevation View and Top View.
 
-### 3. Constrained Parametric Canvas Mechanics
+### 3. Constrained Parameters Canvas Mechanics
 To ensure high tablet usability and prevent geometrically invalid shapes:
 * **Interactive Dimension Labels:** Clicking or tapping any dimension line (e.g., width or height) highlights the value and opens an inline numeric keypad / input bubble.
 * **Direct Feature Modifiers:** Users can toggle geometric features directly from the canvas:
