@@ -1,0 +1,93 @@
+{
+  "systemId": "ikea-bror",
+  "brand": "IKEA",
+  "systemName": "IKEA BROR Heavy-Duty System",
+  "line": "bror",
+  "compatibleLines": ["bror"],
+  "vendor": "IKEA",
+  "stores": ["IKEA Retail Stores", "ikea.com"],
+  "mountingType": "freestanding-frame",
+  "skillLevel": "beginner",
+  "weightTier": "heavy",
+  "maxBayLoadLbs": 800,
+  "maxShelfLoadLbs": 286,
+  "recommendedCategories": ["tools", "automotive", "food", "holiday", "leisure", "cleaning-car"],
+  "restrictedTo": "Heavy-duty galvanized steel freestanding post-and-shelf system built for garages, workshops, and heavy storage.",
+  "standardBayWidthsInches": [25.125, 33.0],
+  "standardDepthsInches": [15.375, 21.25],
+  "standardUprightHeightsInches": [43.25, 74.75],
+  "verticalSlotIntervalInches": 2.0,
+  "canCutToFitWidth": false,
+  "description": "Industrial-grade freestanding steel shelving capable of holding up to 286 lbs per shelf (bags of cement, toolboxes, tires, bulk crates).",
+  "badgeColor": "#334155",
+  "components": [
+    {
+      "sku": "903.332.86",
+      "name": "BROR Post Set 43 1/4\" (110cm)",
+      "role": "upright-standard",
+      "line": "bror",
+      "description": "43.25\" heavy-duty galvanized steel corner posts.",
+      "dimensionsInches": { "width": 1.5, "depth": 1.5, "height": 43.25 },
+      "maxWeightLbs": 600,
+      "priceUsd": 20.00
+    },
+    {
+      "sku": "103.332.85",
+      "name": "BROR Post Set 74 3/4\" (190cm)",
+      "role": "upright-standard",
+      "line": "bror",
+      "description": "74.75\" heavy-duty galvanized steel corner posts.",
+      "dimensionsInches": { "width": 1.5, "depth": 1.5, "height": 74.75 },
+      "maxWeightLbs": 800,
+      "priceUsd": 30.00
+    },
+    {
+      "sku": "303.338.40",
+      "name": "BROR Heavy-Duty Steel Shelf 25 1/8\" x 15 3/8\"",
+      "role": "shelf",
+      "subType": "metal-shelf",
+      "line": "bror",
+      "description": "25.125\" powder-coated steel shelf rated up to 198 lbs.",
+      "dimensionsInches": { "width": 25.125, "depth": 15.375, "height": 1.5 },
+      "maxWeightLbs": 198,
+      "priceUsd": 20.00,
+      "requiresBracket": false
+    },
+    {
+      "sku": "003.338.46",
+      "name": "BROR Heavy-Duty Steel Shelf 33\" x 21 1/4\"",
+      "role": "shelf",
+      "subType": "metal-shelf",
+      "line": "bror",
+      "description": "33\" extra-deep steel shelf rated up to 286 lbs.",
+      "dimensionsInches": { "width": 33.0, "depth": 21.25, "height": 1.5 },
+      "maxWeightLbs": 286,
+      "priceUsd": 30.00,
+      "requiresBracket": false
+    },
+    {
+      "sku": "504.946.65",
+      "name": "BROR Sliding Metal Drawer 33\"",
+      "role": "drawer",
+      "subType": "metal-drawer",
+      "line": "bror",
+      "description": "33\" steel utility drawer for hand tools and workshop hardware.",
+      "dimensionsInches": { "width": 33.0, "depth": 15.375, "height": 6.0 },
+      "maxWeightLbs": 55,
+      "priceUsd": 45.00,
+      "requiresBracket": false
+    },
+    {
+      "sku": "603.431.59",
+      "name": "BROR Steel Pegboard Panel 33\"",
+      "role": "pegboard",
+      "subType": "pegboard-panel",
+      "line": "bror",
+      "description": "33\" steel tool pegboard panel that mounts between BROR posts.",
+      "dimensionsInches": { "width": 33.0, "depth": 1.0, "height": 16.0 },
+      "maxWeightLbs": 70,
+      "priceUsd": 25.00,
+      "requiresBracket": false
+    }
+  ]
+}
